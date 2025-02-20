@@ -1,0 +1,90 @@
+*{
+    font-family: "Poppins", "sans-serif";
+    margin: 0;
+    padding: 0;
+}
+
+#headerSection{
+    padding: 2rem;
+    background: linear-gradient(to right, #7eb5e8, #27639b, #041E42);
+    color: white;
+    font-size: larger;
+}
+
+.container{
+    padding: 3rem;
+    margin-top: 3rem;
+    display: flex;
+    /* width: 100%; */
+}
+
+.logo{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.logo img{
+    margin: auto;
+    width: 50%;
+    border-radius: 20px; 
+}
+
+.logo h3{
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+.logo p{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.login-form{
+    width: 20%;
+    margin: 0 auto;
+    padding: 20px 30px ;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(23, 35, 135, 0.783);
+    transform: scale(1.2);
+
+}
+
+.login-form img {
+    height: 100px;
+    width: auto;
+    padding-bottom: 8%;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    width: 90%;
+    height: 50%;
+    font-size: 18px;
+}
+
+#dropbox{
+    padding: 10px;
+    border-radius: 5px;
+    width: 90%;
+    height: 45%;
+    font-size: 18px;
+}
+
+#loginbtn {
+    border-radius: 10px;
+    background: linear-gradient(to right, #0f4476, #0348a9);
+    color: white;
+    width: 90%;
+    height: 45%;
+    border: none;
+    box-shadow: 0 0 5px rgba(23, 35, 135, 0.783);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 13px;
+    margin-top: 10%;
+}

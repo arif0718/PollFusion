@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Student Council Election System - Registration</title>
+    <link rel="stylesheet" href="../css/register.css">
+    
+</head>
+<body>
+
+    <style>
+        #address{
+            width: 30%;
+        }
+
+    </style>
+
+    <center>
+
+        <div id="headerSection">
+            <h1>Online Student Council Election System</h1>
+        </div>
+
+        <div class="container">
+            <div class="logo">
+                <h3>Get Started with Online Voting</h3>
+                <img src="../image/img.png">
+                <p>Your vote matters! Fill out the form on the right to register and 
+                    access the secure voting platform. Once registered, you’ll be all 
+                    set to log in and participate in the upcoming election.
+                </p>
+            </div>
+
+            <div class="register-form">
+                <h3 style="font-size: 40px; padding-bottom: 2rem;">Registration</h3>
+
+                <form action="../api/register.php" method="POST" enctype="multipart/form-data">
+    
+                    <input type="text" name="name" placeholder="Enter name">
+                    <input type="number" name="mobile" placeholder="Enter mobile"><br> <br>
+                    <input type="password" name="password" placeholder="Create Password">
+                    <input type="password" name="cpassword" placeholder="Confirm Password"><br><br>
+                    <input style="width: 61%;" id="address" type="text" name="address" placeholder="Address"><br><br>
+            
+                    <center>
+                    <div id="imagepart">
+                        <p style="margin: 1rem ;">Upload image:</p> 
+                        <input  type="file" name="photo" id="#">
+                    </div>
+                    <br><br>
+            
+                    <div id="role">
+                        Select your role:  <select name="role" id="#">
+                            <option value="1">Voter</option>
+                            <option value="2">Group</option>
+                        </select>
+                    </div>
+                    </center>
+                    <br><br>
+            
+                    <button id="loginbtn" type="submit">Register</button><br><br>
+                    <label style="font-size: 18px;">already user?</label> <a style="color: blue; font-size: 20px;" href="../index.html">Login here</a>
+    
+                </form>
+            </div>
+
+        </div>
+    
+    </center>
+</body>
+</html>

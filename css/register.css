@@ -1,0 +1,100 @@
+*{
+    font-family: "Poppins", "sans-serif";
+    margin: 0;
+    padding: 0;
+}
+
+#headerSection{
+    padding: 2rem;
+    background: linear-gradient(to right, #7eb5e8, #27639b, #041E42);
+    color: white;
+    font-size: larger;
+}
+
+.container{
+    padding: 2rem;
+    display: flex;
+
+}
+
+.logo{
+    width: 60%;
+    font-size: 18px; 
+    padding-left: 10px;
+    margin-top: 5rem;
+}
+
+.logo img{
+    padding: 2rem;
+    height: 300px;
+    width: auto;
+    border-radius: 3rem; 
+}
+
+.logo h3{
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+.logo p{
+    font-weight: bold;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 24px;
+}
+
+.register-form{
+    padding: 3rem;
+    margin-right: 3%;
+    width: 50%;
+    box-shadow: 0 0 5px rgba(23, 35, 135, 0.783);    
+}
+
+input {
+    width: 30%;
+    height: 5vh;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+#imagepart {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 50%;
+    font-size: 22px;
+    
+    input{
+        width: fit-content;
+        position: relative;    
+        left: 50%;   
+        transform: translateX(-50%);     
+    }
+}
+
+#role{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 40%;
+    font-size: 20px;
+}
+
+#role select{
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#loginbtn {
+    border-radius: 10px;
+    background: linear-gradient(to right, #0f4476, #0348a9);
+    color: white;
+    width: 30%;
+    height: 45%;
+    border: none;
+    box-shadow: 0 0 5px rgba(23, 35, 135, 0.783);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 13px;
+}

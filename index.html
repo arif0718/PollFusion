@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Student Council Election System - Login</title>
+    <link rel="stylesheet" href="css/login.css">
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+<body>
+    <center>
+        <div id="headerSection">
+        <h1>Online Student Council Election System </h1>
+        
+        </div>
+    
+        <div class="container">
+
+            <div class="logo">
+                <h3>Welcome to the gateway of change!</h3>
+                <img src="image/img.png">
+                <p> 
+                    This is your opportunity to make your voice heard and shape the future of our student community. 
+                    Log in below to empower yourself and vote in the upcoming student council election. 
+                    Remember, every vote counts and together, we can create a brighter tomorrow!
+                </p>
+            </div>
+
+            <div class="login-form">
+                <img src="image/logo.jpg">
+
+                <form action="api/login.php" method="POST">
+                    <input type="number" name="mobile" placeholder="Enter mobile"> <br><br>
+                    <input type="password" name="password" placeholder="Enter password"> <br><br>
+            
+                    <select name="role" id="dropbox">
+                        <option value="1">Voter</option>
+                        <option value="2">Group</option>
+                    </select><br><br>
+            
+                    <button id="loginbtn" type="submit">Login</button><br><br>
+            
+                   <label style="font-size: 18px;">New user?</label> <a style="color: blue; font-size: 20px;" href="routes/register.html">Register here</a>
+            
+                </form>
+            </div>
+
+        </div>
+    </center>
+
+</body>
+</html>

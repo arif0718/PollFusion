@@ -1,0 +1,119 @@
+*{
+    font-family: "Poppins", "sans-serif";
+    margin: 0;
+    padding: 0;
+}
+
+#headerSection{
+    padding: 2rem;
+    background: linear-gradient(to right, #7eb5e8, #27639b, #041E42);
+    color: white;
+    font-size: larger;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+#logoutbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 1.5rem;
+    padding: 4px 8px;
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    left: 20rem;    
+    box-shadow: 0 0 5px rgba(1, 139, 251, 0.783);
+    text-decoration: none;
+}
+
+#mainpanel{
+    padding: 10px;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Profile{
+    background-color: white;
+    width: 30%;
+    margin: auto;
+    padding: 1rem;
+    box-shadow: 0 0 5px rgba(23, 35, 135, 0.783);
+    font-size: 24px;
+}
+
+#userImage{
+    width: 250px;
+    height: 250px;
+    /* object-fit: cover; */
+    
+}
+
+
+
+#Group{
+    background-color: white;
+    width: 55%;
+    height: 75vh;
+    margin-right: 1.2rem;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    overflow: auto;
+    box-shadow: 0 0 5px rgba(23, 35, 135, 0.783);
+    border-radius: 10px;
+
+    &::-webkit-scrollbar{
+        display: none;
+    }
+
+}
+
+.candidateProfile{
+    box-shadow: 0 0 5px rgba(23, 35, 135, 0.783);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+    /* margin-bottom: 15px; */
+}
+
+
+
+#candidateImage{
+    margin: 2% ;
+    width: 23%;
+    height: 25vh;
+}
+
+.groupDetails{
+    margin-top: 10%;
+    font-size: 24px;
+    width: 30%;
+}
+
+#votebtn{
+    font-size: 1.5rem;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    /* margin: 80% 50%; */
+    width: 130px;
+    height: 45px;
+}
+
+#voted{
+    font-size: 1.5rem;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    /* margin: 80% 50%; */
+    width: 130px;
+    height: 45px;
+}
